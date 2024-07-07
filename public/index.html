@@ -37,12 +37,12 @@
           <div>and i am a passionate</div>
           <span id="element"></span>
           <div class="button">
-            <button>Download resume</button>
-            <button>Visit Github</button>
+            <button class="download-btn" onclick="downloadResume()">Download Resume</button>
+            <button class="github" onclick="visitGithub()">Visit Github</button>
           </div>
         </div>
         <div class="rightsection">
-          <img src="./images/3dimg.png" alt="" />
+          <img src="./images/3dimg.jpg" alt="" />
         </div>
       </div>
     </section class="sectionBox1">
@@ -54,7 +54,7 @@
         <h1>Past Experience</h1>
         <div class="horizontal">
           <div class="vertical">
-            <img class="img-top" src="./images/blender-computer.jpg" alt="" />
+            <img class="img-top" src="images/3dimg.jpg" alt="" />
             <div class="vertical-tittle">
               <h4>Blender Learner(2021-2022)</h4>
             </div>
@@ -66,7 +66,7 @@
             </div>
           </div>
           <div class="vertical">
-            <img class="img-top" src="./images/Cpp.png" alt="" />
+            <img class="img-top" src="./images/3dimg.jpg" alt="" />
             <div class="vertical-tittle">
               <h4>C++ langage(2022-2023)</h4>
             </div>
@@ -77,7 +77,7 @@
             </div>
           </div>
           <div class="vertical">
-            <img class="img-top" src="./images/GD.jpg" alt="" />
+            <img class="img-top" src="./images/3dimg.jpg" alt="" />
             <div class="vertical-tittle">
               <h4>Game Development(2022-2023)</h4>
             </div>
@@ -89,7 +89,7 @@
             </div>
           </div>
           <div class="vertical">
-            <img class="img-top" src="./images/fronted3d.webp" alt="" />
+            <img class="img-top" src="./images/3dimg.jpg" alt="" />
             <div class="vertical-tittle">
               <h4>Fronted Development(2022-2023)</h4>
             </div>
@@ -104,7 +104,7 @@
         <div class="horizontal-mob">
           <div class="horizontal1">
             <div class="vertical ">
-              <img class="img-top" src="./images/blender-computer.jpg" alt="" />
+              <img class="img-top" src="./images/3dimg.jpg" alt="" />
               <div class="vertical-tittle vm1">
                 <h4>Blender learner(2021-2022)</h4>
               </div>
@@ -116,7 +116,7 @@
               </div>
             </div>
             <div class="vertical ">
-              <img class="img-top" src="./images/Cpp.png" alt="" />
+              <img class="img-top" src="./images/3dimg.jpg" alt="" />
               <div class="vertical-tittle vm1">
                 <h4>C++ langage(2022-2023)</h4>
               </div>
@@ -129,7 +129,7 @@
           </div>
           <div class="horizontal2">
             <div class="vertical">
-              <img class="img-top" src="./images/GD.jpg" alt="" />
+              <img class="img-top" src="./images/3dimg.jpg" alt="" />
               <div class="vertical-tittle vm1">
                 <h4>Game Development(2022-2023)</h4>
               </div>
@@ -141,7 +141,7 @@
               </div>
             </div>
             <div class="vertical">
-              <img class="img-top" src="./images/fronted3d.webp" alt="" />
+              <img class="img-top" src="./images/3dimg.jpg" alt="" />
               <div class="vertical-tittle vm1">
                 <h4>Fronted Development(2022-2023)</h4>
               </div>
@@ -160,11 +160,10 @@
   <!-- footer  section-->
   <footer>
     <ul>
-      <li><a href="/">home</a></li>
-      <li><a href="/">About</a></li>
-      <li><a href="/">Service</a></li>
-      <li><a href="/">Project</a></li>
-      <li><a href="/">Contact me</a></li>
+      <li><a href="#">home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Project</a></li>
+      <li><a href="#">Contact me</a></li>
     </ul>
     <div class="text">
       <img id="insta" src="images/images.jpg" alt="">
@@ -173,17 +172,7 @@
   </footer>
   <!-- javascript -->
   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-  <script>
-    var typed = new Typed("#element", {
-      strings: [
-        "Fronted Developer",
-        "3D Modeling",
-        "Charecter Animation",
-        "<b>Game Developer</b> ",
-      ],
-      typeSpeed: 60,
-    });
-  </script>
+  <script src="index.js"></script>
 </body>
 
 </html>
