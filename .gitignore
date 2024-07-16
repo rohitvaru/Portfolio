@@ -1,4 +1,4 @@
 # ignore folder
-public
+public/
 # ignore file
 config.js
